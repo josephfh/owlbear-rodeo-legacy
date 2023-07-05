@@ -125,7 +125,7 @@ function TokenPreview({ token }: TokenPreviewProps) {
                         bottomRight: { x: 1, y: 1 },
                       },
                       type: "square",
-                      measurement: { type: "chebyshev", scale: "5ft" },
+                      measurement: { type: "alternating", scale: "5ft" },
                     }}
                     width={gridWidth}
                     height={gridHeight}

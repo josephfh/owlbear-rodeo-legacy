@@ -41,7 +41,7 @@ export function getDefaultMaps(userId: string): {
         size: { x: 22, y: 22 },
         inset: { topLeft: { x: 0, y: 0 }, bottomRight: { x: 1, y: 1 } },
         type: "square",
-        measurement: { type: "chebyshev", scale: "5ft" },
+        measurement: { type: "alternating", scale: "5ft" },
       },
       width: 1024,
       height: 1024,

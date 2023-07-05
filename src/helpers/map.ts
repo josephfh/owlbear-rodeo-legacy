@@ -173,7 +173,7 @@ export async function createMapFromFile(
           ),
           type: "square",
           measurement: {
-            type: "chebyshev",
+            type: "alternating",
             scale: "5ft",
           },
         },
@@ -183,7 +183,7 @@ export async function createMapFromFile(
         created: Date.now(),
         lastModified: Date.now(),
         owner: userId,
-        showGrid: false,
+        showGrid: true,
         snapToGrid: true,
         quality: "original",
       };

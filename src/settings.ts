@@ -14,7 +14,7 @@ function loadVersions(settings: Settings) {
       useBlending: true,
     },
     measure: {
-      type: "chebyshev",
+      type: "alternating",
       scale: "5ft",
     },
     timer: {
